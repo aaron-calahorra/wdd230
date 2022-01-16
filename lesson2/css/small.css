@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;700&display=swap');
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+/* Body */
+ body {
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 300;
+}
+
+ /* Header */
+ header {
+    background-color: #9FA89F;
+    padding: 1rem 2%;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+   margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    margin: 0 14px 4%;
+    border: 3px solid #303630;
+    border-radius: 20px;
+    background-color: #F4F5F4;
+    padding: 10px 3%;
+}
+
+.card h2 {
+    background-color: #303630;
+    color: white;
+    padding: 20px 4%;
+    border-radius: 20px 20px 0 0;
+    margin: -12px -4%;
+}
+
+.card h3 {
+    margin: 30px 0 0;
+    font-size: 1.3rem;
+}
+
+.card img {
+    width: 100%;
+    border: black;
+    margin: 30px 0 10px;
+    border-radius: 20px;
+}
+
+.card p {
+    padding: 0 20px 20px;
+}
+
+
+footer {
+    background-color: #9FA89F;
+    padding: 1rem 2%;
+    text-align: center;
+}
