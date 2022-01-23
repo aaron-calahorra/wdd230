@@ -1,0 +1,121 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+body {
+	font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Big Shoulders Text', cursive;
+}
+
+header {
+    background-color: #8C705F;
+    padding: 1.5rem 2%;
+    text-align: center;
+	color: white;
+}
+
+header h1 {
+    margin: 0;
+	font-size: 2.5rem;
+}
+
+header h2 {
+   margin: 0;
+}
+
+nav {
+	background-color: #BFD1E5;
+	text-align: center;
+
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #A8C0DC;
+}
+
+nav .active {
+	background-color: #7CA1CB;
+	color: white;
+}
+
+nav .active a {
+	color: white;
+}
+
+main {
+	padding: 5vw;
+}
+
+main h2 {
+	font-size: 2rem;
+	text-align: center;
+	margin: 0;
+}
+
+main h3 {
+	font-size: 1.7rem;
+}
+
+main p {
+	margin-bottom: 60px;
+}
+
+.domain {
+	text-align: center;
+}
+
+main img  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+main ul {
+	margin: -50px 0 60px;
+}
+
+.title-color {
+	background-color: #8C705F;
+	color: white;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.accents-color {
+	background-color: #BFD1E5;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+footer {
+    background-color: #8C705F;
+	color: white;
+    padding: 1rem 2%;
+    text-align: center;
+}
