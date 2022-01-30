@@ -1,0 +1,62 @@
+@media only screen and (min-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main section {
+        flex-basis: 100%;
+    }
+
+    .hero {
+        order: 1;
+    }
+
+    .news {
+        order: 2;
+    }
+
+    .spotlights{
+        order: 3;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sp {
+        flex-grow: 1;
+    }
+
+    .join {
+        order: 4;
+    }
+
+    .events {
+        order: 5;
+        flex-basis: 60%;
+
+    }
+
+    .weather {
+        order: 6;
+        margin-left: .75rem;
+        flex-basis: calc(40% - 0.75rem);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .copyright {
+        flex-basis: 100%;
+    }
+     
+
+    .contact {
+        margin-left: auto;
+    }
+}

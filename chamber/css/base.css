@@ -1,0 +1,168 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+body {
+	font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Big Shoulders Text', cursive;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #8C705F;
+    color: white;
+}
+
+header img {
+    width: 100px;
+    margin: 15px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.logo h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+header p {
+    text-align: center;
+    padding: 0 0 5px;
+    font-size: .8rem;
+}
+
+nav {  
+    background-color: #BFD1E5;
+    color: black;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.active {
+    background-color: #7CA1CB;
+}
+
+.navigation a:hover {
+	background-color: #A8C0DC;
+}
+
+.responsive li {
+	display: block;
+}
+
+.ham {
+    margin: 0;
+}
+
+.ham img {
+    width: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: .75rem;
+}
+
+main h1 {
+    font-size: 2.2rem;
+    padding: 0 .75rem;
+}
+
+main section {
+    margin: .75rem 0;
+    background-color: lightgray;
+    height: 200px;
+    padding: 15px;
+}
+
+.spotlights {
+    height: auto;
+}
+
+.sp {
+    margin: 0.75rem;
+    border: solid 1px gray;
+    height: 175px;
+}
+
+.sp.large {
+    display: none;
+}
+
+footer {
+    padding: 0.75rem;
+    background-color: #8C705F;
+    color: white;
+    text-align: center;
+    font-size: .9rem;
+}
+
+footer img {
+    width: 150px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.address {
+    padding: 10px;
+}
+
+.address p {
+    margin: 0;
+}
+
+.contact {
+    padding: 10px;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.map {
+    padding: 20px;
+}
+
+.map a {
+    color: white;
+}
