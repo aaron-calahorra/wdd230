@@ -135,7 +135,7 @@ footer {
     color: white;
     text-align: center;
     font-size: .9rem;
-	margin-top: 1rem;
+    margin: 80px 0 0;
 }
 
 footer img {
@@ -166,4 +166,20 @@ footer img {
 
 .map a {
     color: white;
+}
+
+#message {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: .9rem;
+}
+
+#message.showme {
+  display: block;
+}
+
+#message.hideme {
+  display: none;
 }
