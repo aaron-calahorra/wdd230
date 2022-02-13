@@ -99,9 +99,6 @@ nav {
     padding: 0;
 }
 
-main {
-    margin: .75rem;
-}
 
 main h1 {
     font-size: 2.2rem;
@@ -204,4 +201,14 @@ footer img {
 
 #message.hideme {
   display: none;
+}
+
+.hero-image {
+    width: 100%;
+    margin: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    margin: 0;
 }
