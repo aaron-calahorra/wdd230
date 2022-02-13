@@ -35,7 +35,7 @@
     <header>
       <div class="logo">
         <picture>
-          <img src="images/logo.png" alt="Peak Chamber of Commerce Logo" />
+          <img src="images/logo.webp" alt="Peak Chamber of Commerce Logo" />
         </picture>
         <section class="headings">
           <h1>Peak Chamber of Commerce</h1>
@@ -57,31 +57,54 @@
     </nav>
 
     <main>
-      <figure class="hero-image">
-        <img src="images/heroSrc.jpg" sizes="100vw" alt="Hero Image" srcset="images/heroimagesmall.jpg 720w, images/heroimagemedium.jpg 1080w, images/heroimglarge.jpg 1920w">
-      </figure>
-      <h1>Discover</h1>
-      <section class="hero">
-        <h2>Meet new partners, providers, businesses and friends.</h2>
-        <button>Join now</button>
-      </section>
-      <section class="events">
-        <h2>Upcoming events 📅</h2>
-        <ul>
-          <li>Chamber meet and greet: Every Wednesday</li>
-        </ul>
-      </section>
-      <section class="weather">
-        <a class="weatherwidget-io" href="https://forecast7.com/en/28d63n106d07/chihuahua/" data-label_1="Chihuahua" data-label_2="Current weather" data-mode="Current" data-theme="original" data-basecolor="rgba(255, 255, 255, 0)" data-textcolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" >Chihuahua Current weather</a>      </section>
-      <section class="news">
-        <h2>News</h2>
-      </section>
-      <section class="join">Join</section>
-      <section class="spotlights">
-        <div class="sp">Spotlight 1</div>
-        <div class="sp">Spotlight 2</div>
-        <div class="sp large">Spotlight 3</div>
-      </section>
+      <picture class="hero-image">
+        <source media="(max-width: 600px)" srcset="images/heroimagesmall.jpg">
+        <source media="(max-width: 1000px)" srcset="images/heroimagemedium.jpg">
+        <source media="(max-width: 1600px)" srcset="images/heroimglarge.jpg">
+        <img src="images/heroSrc.jpg" sizes="100vw" alt="Hero Image">
+      </picture>
+      <h1 class="page-title">Discover</h1>
+      <section class="dashboard">
+        <div class="hero">
+          <h2>Meet new partners, providers, businesses and friends.</h2>
+          <button>Read more</button>
+        </div>
+        <div class="events">
+          <h2>Upcoming events 📅</h2>
+          <ul>
+            <li>Chamber meet and greet: Every Wednesday</li>
+          </ul>
+        </div>
+        <div class="weather">
+          <h2>Weather</h2>
+          <p>Current tempeture is: <span id="temp">15</span>&deg;C</p>
+          <p>Wind speed: <span id="speed">7</span> km/h</p>
+          <p id="chill">message</p>
+        </div>
+        <div class="news">
+          <h2>News</h2>
+          <p>A investor looking for the next big company is visiting town.</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="join">
+          <h2>What are you waiting to join us?</h2>
+          <button>Contact us</button>
+        </div>
+        <div class="spotlights">
+          <div class="sp first">
+            <h2>💸</h2>
+            <p>How to manage a business during a pandemic.</p>
+          </div>
+          <div class="sp second">
+            <h2>⚽️</h2>
+            <p>Local sports are a great alternative for marketing.</p>
+          </div>
+          <div class="sp large third">
+            <h2>🧑🏻‍💻</h2>
+            <p>Learn about the next generation of web developers.</p>
+          </div>
+        </div>
+    </section>
     </main>
 
     <footer>

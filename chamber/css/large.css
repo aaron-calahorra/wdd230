@@ -35,7 +35,7 @@
 		display: none;
 	}
 
-    main {
+    .dashboard {
         padding:0 calc((100% - 1000px)/2);
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -47,7 +47,7 @@
         align-content: stretch;
     }
 
-    main section {
+    main div {
         margin: 0;
     }
 
@@ -75,6 +75,7 @@
 
     .sp {
         height: auto;
+        margin: 0.75rem 0;
     }
 
     .weather {

@@ -99,16 +99,18 @@ nav {
     padding: 0;
 }
 
+.dashboard {
+    margin: 0 2%;
+}
 
 main h1 {
     font-size: 2.2rem;
     padding: 0 .75rem;
 }
 
-main section {
+main div {
     margin: .75rem 0;
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, .05);
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -116,15 +118,22 @@ main section {
     padding: 0 15px;
 }
 
-main section h2 {
+main div h2 {
     margin: 10px 0;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url("../images/ctaimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .hero h2{
     font-size: 2.5rem;
 }
 
-.hero button {
+button {
     align-self: flex-start;
     background-color: black;
     color: white;
@@ -136,12 +145,19 @@ main section h2 {
 
 .spotlights {
     height: auto;
+    border: 1px solid #8C705F;
 }
 
 .sp {
-    margin: 0.75rem;
+    margin: 0.75rem 0;
     border: solid 1px gray;
     height: 175px;
+    text-align: center;
+}
+
+.sp h2 {
+    margin: 0;
+    font-size: 3rem;
 }
 
 .sp.large {
@@ -211,4 +227,42 @@ footer img {
 .hero-image img {
     width: 100%;
     margin: 0;
+}
+
+.page-title {
+    display: none;
+}
+
+.weather p {
+    margin: 0;
+}
+
+.weather {
+    background: linear-gradient(to right, #8BABD0, #BFD1E5);
+}
+
+.events {
+    border: 1px solid #8C705F;
+}
+
+.join {
+    background-color: black;
+    color: white;
+}
+
+.join button {
+    background-color: white;
+    color: black;
+}
+
+.news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/investor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: white;
+}
+
+.news a {
+    color: white;
 }

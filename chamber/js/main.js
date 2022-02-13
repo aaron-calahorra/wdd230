@@ -49,4 +49,15 @@ if (dateNumber == 1 || dateNumber == 2) {
 }
 
 
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+const temp = parseFloat(document.getElementById("temp").textContent);
+
+const speed = parseFloat(document.getElementById("speed").textContent);
+
+let wc = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temp * Math.pow(speed, 0.16));
+wc = Math.round(wc);
+
+if(temp <= 10 && speed > 4.8) {
+  document.getElementById("chill"). textContent = "Wind chill: " + wc + "\xB0F";
+} else {
+  document.getElementById("chill"). textContent = "No wind chill today 😄";
+}

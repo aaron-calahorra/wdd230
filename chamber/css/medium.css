@@ -5,7 +5,7 @@
         flex-wrap: wrap;
     }
 
-    main section {
+    main div {
         flex-basis: 100%;
     }
 
@@ -25,6 +25,7 @@
 
     .sp {
         flex-grow: 1;
+        margin: .75rem;
     }
 
     .join {
@@ -39,7 +40,6 @@
 
     .weather {
         order: 6;
-        margin-left: .75rem;
         flex-basis: calc(40% - 0.75rem);
     }
 
@@ -58,5 +58,11 @@
 
     .contact {
         margin-left: auto;
+    }
+
+    .hero-image img{
+        height: 300px;
+        object-fit: cover;
+        object-position: 0 0;
     }
 }
