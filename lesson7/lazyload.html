@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=vice-width, initial-scale=1">
+        <meta name="description" content="Lazy loading images."/>
+        <meta name="author" content="Aaron Calahorra">
+        <title>Progressive Loading of Images</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/base.css">
+     </head>
+
+     <body>
+         <h1>Progressive Loading of Images</h1>
+         <picture>
+             <img src="images/placeholder.png" data-src="//picsum.photos/300/400" alt="Photo">
+         </picture>
+         <picture>
+            <img src="images/placeholder.png" data-src="//unsplash.it/300/400" alt="">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="//placeimg.com/300/400/architecture" alt="">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="//loremflickr.com/300/400" alt="">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="//placebeard.it/300/400" alt="">
+        </picture>
+         <script src="js/lazyLoad.js"></script>
+     </body>
+
+</html>
