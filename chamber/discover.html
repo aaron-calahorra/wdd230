@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Peak Chamber of Commerce website: news, events and more of local businesses"
+    />
+    <meta name="author" content="Aaron Calahorra" />
+    <title>Peak Chamber of Commerce</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <div id="message">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
+    <header>
+      <div class="logo">
+        <picture>
+          <img src="images/logo.webp" alt="Peak Chamber of Commerce Logo" />
+        </picture>
+        <section class="headings">
+          <h1>Peak Chamber of Commerce</h1>
+          <h2>Local businesses grow our community.</h2>
+        </section>
+      </div>
+      <p id="date"></p>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li>
+          <a class="ham" href="#"><img src="images/menu.png" alt="menu" /></a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="page-title">Discover</h1>
+      <div class="gallery">
+        <h2>Gallery</h2>
+        <figure>
+          <img src="images/angel.jpg" loading="lazy" width="600" height="600" alt="Angel sculpture at downtown.">
+          <figcaption>Statue of an angel entering downtown.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/art.jpg" loading="lazy" width="600" height="600" alt="Door modern sculpture.">
+          <figcaption>Hometown of modern sculpture art.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/building.jpg" loading="lazy" width="600" height="600" alt="Chihuahua city at night.">
+          <figcaption>The best place to invest in real state.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/copper-canyon.jpg" loading="lazy" width="600" height="600" alt="Copper canyon during spring.">
+          <figcaption>Copper Canyon: the main event of adventure tourism.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/downtown.jpeg" loading="lazy" width="600" height="600" alt="Chihuahua City downtown.">
+          <figcaption>Have a walk in our historic downtown.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/drone.jpg" loading="lazy" width="600" height="600" alt="Sky shot of Chihuahua city.">
+          <figcaption>A city with a great growth rate per year.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/house.jpg" loading="lazy" width="600" height="600" alt="Museum in Chihuahua.">
+          <figcaption>Visit our museums.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/paquime.jpg" loading="lazy" width="600" height="600" alt="Paquime park.">
+          <figcaption>Be part of prehistoric events, like Paquime.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/umbrellas.jpg" loading="lazy" width="600" height="600" alt="Umbrellas in downtown Chihuahua city.">
+          <figcaption>Creativity defines our people.</figcaption>
+        </figure>
+      </div>
+      <div class="local-storage">
+        <p>Days since last visit: <span id="last-visit"></span></p>
+      </div>
+    </main>
+
+    <footer>
+        <img src="images/logo.png" alt="Peak Chamber of Commerce logo" />
+        <div class="address">
+          <p>Independence St. 301</p>
+          <p>Chihuahua, México, 31125</p>
+        </div>
+  
+        <div class="contact">
+          <p>hello@peakcommerce.com</p>
+          <p>(614) 647 2654</p>
+          <div class="map"><a href="#">📍 Link to map</a></div>
+        </div>
+  
+        <div class="copyright">
+          <p>
+            &copy; <span id="copyright-year"></span> Peak Commerce| Aaron
+            Calahorra | WDD 230 Project
+          </p>
+          <p>Last modified: <span id="last-modified-date"></span></p>
+        </div>
+      </footer>
+
+    <script src="js/main.js"></script>
+    </body>
+</html>

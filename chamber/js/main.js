@@ -49,6 +49,17 @@ if (dateNumber == 1 || dateNumber == 2) {
 }
 
 
+
+
+var lastVisit = new Date (localStorage.getItem("lastdate"));
+var diff = Math.floor((now - lastVisit) / 84600000);
+document.getElementById("last-visit").textContent = diff;
+localStorage.setItem("lastdate", now);
+ 
+
+
+
+
 const temp = parseFloat(document.getElementById("temp").textContent);
 
 const speed = parseFloat(document.getElementById("speed").textContent);
@@ -61,3 +72,4 @@ if(temp <= 10 && speed > 4.8) {
 } else {
   document.getElementById("chill"). textContent = "No wind chill today 😄";
 }
+
