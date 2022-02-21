@@ -1,0 +1,50 @@
+table {
+    margin: 10px auto;
+    border: thin solid lightgray;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px rgba(80, 121, 149, 0.5);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+td {
+    text-align: center;
+}
+
+thead tr:first-child th{
+	background-color: rgb(128, 185, 194);
+    font-size: 1.7rem;
+    color: black;
+}
+
+th, td {
+	padding: 7px 10px;
+	border: 1px solid lightgray;
+}
+
+th {
+    background-color: rgb(98, 140, 165);
+    color: white;
+    font-size: 1.2rem;
+}
+
+tbody {
+	background-color: rgb(231, 240, 237);
+    font-weight: 400;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(231, 255, 238);
+}
+
+tfoot tr th {
+    font-size: .7rem;
+    font-weight: 400;
+    padding: 10px;
+    color: black;
+    background-color: rgb(110, 171, 181);
+}
+
+.focus {
+    color: white;
+    background-color: rgb(98, 140, 165);
+}
