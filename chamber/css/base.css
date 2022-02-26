@@ -309,6 +309,7 @@ form label.top {
 
 form label.top input, form label.top select, .top textarea{
     -webkit-appearance: none;
+    appearance: none;
     display: block;
     padding: .75rem 0;
     width: 100%;
