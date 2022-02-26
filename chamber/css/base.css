@@ -303,6 +303,10 @@ figure {
 
 /*--------- FORMS -----------*/
 
+form {
+    padding: 0 14px;
+}
+
 form label.top {
     display: block;
 }
@@ -315,6 +319,8 @@ form label.top input, form label.top select, .top textarea{
     width: 100%;
     max-width: 20rem;
     border-radius: 10px;
+    margin: 0 0 20px;
+    background-color: white;
 }
 
 form input.submitBtn {
@@ -328,7 +334,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-form label.top input:required {
+form label.top input:required, form label.top select:required, .top textarea:required{
     border: 1px solid red;
 }
 
