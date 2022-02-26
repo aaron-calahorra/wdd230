@@ -19,7 +19,6 @@ hambutton.addEventListener(
   false
 );
 
-document.getElementById("setCurrentTime").setAttribute("value", now);
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {
@@ -74,3 +73,4 @@ if(temp <= 10 && speed > 4.8) {
 } else {
   document.getElementById("chill"). textContent = "No wind chill today 😄";
 };
+
