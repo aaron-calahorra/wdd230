@@ -300,6 +300,48 @@ figure {
     text-align: center;
 }
 
+#membership-title {
+    text-align: center;
+}
+
+.membership {
+    text-align: center;
+    margin: 10px 60px;
+    padding: 20px 50px;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.platinum {
+    background-color: black;
+    color: white;
+}
+
+.membership-icon {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.membership h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 15px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    color: black;
+}
 
 /*--------- FORMS -----------*/
 
@@ -320,6 +362,7 @@ form label.top input, form label.top select, .top textarea{
     border-radius: 10px;
     margin: 4px 0 30px;
     background-color: white;
+    border: 1px solid black;
 }
 
 form input.submitBtn {
@@ -330,10 +373,11 @@ form input.submitBtn {
     padding: 15px 50px;
     border-radius: 100px;
     width: 100%;
-
+    cursor: pointer;
+    margin-bottom: 60px;
 }
 
-form label.top input:required, form label.top select:required, .top textarea:required{
+form label.top input:required, form label.top input:invalid, form label.top select:required, .top textarea:required{
     border: 1px solid red;
 }
 

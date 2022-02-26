@@ -57,15 +57,15 @@
         </ul>
       </nav>
 <main>
-    <h1>Join us Now</h1>
+    <h1 class="page-title">Join us Now</h1>
 
     <form action="get" action="thankyou.html">
         <label class="top">First name*<input type="text" name="fname" required></label>
         <label class="top">Last name*<input type="text" name="lname" required></label>
-        <label class="top">Business position (optional)<input type="text" name="businesspos"></label>
+        <label class="top">Business position (optional)<input type="text" title="Please type more than 7 characters without spaces to describe your job position." pattern="\S{7,}" name="businesspos"></label>
         <label class="top">Email*<input type="email" name="email" required placeholder="example@example.com"></label>
         <label class="top">Cell phone number*<input type="tel" name="cellphone" required></label>
-        <label class="top">Business name*<input type="text" name="businessname" required></label>
+        <label class="top">Business name*<input type="text" title="Type the name of your company, it doesn't need to be the complete legal name." name="businessname" required></label>
         <label class="top">Membership type*
             <select name="membership-list" required>
                 <option value="none" selected disabled hidden>Select an option &#9662;</option>
@@ -80,11 +80,36 @@
             </textarea>
             
         </label>
-        <input type="hidden" id="date" name="date" value="current-time"> 
-        <input type="hidden" id="time" name="time" value="current-date">
+        <input type="hidden" id="setCurrentTime" name="date" value=""> 
     
+        <a href="thankyou.html"> 
         <input class="submitBtn" type="submit" value="Send request">
+        </a>    
     </form>
+
+    <h2 id="membership-title">Explore our memberships</h2>
+    
+    <div class="membership silver">
+        <h3 class="membership-icon">🥈</h3>
+        <h2>Silver</h2>
+        <p>Access to all our gatherings and get special edition welcome kit.</p>
+        <p class="price">$50/year</p>
+    </div>
+
+    <div class="membership gold">
+        <h3 class="membership-icon">🥇</h3>
+        <h2>Gold</h2>
+        <p>Get access to everything in silver plus an exclusive contact and customer list tailored for your business.</p>
+        <p class="price">$100/year</p>
+    </div>
+
+    <div class="membership platinum">
+        <h3 class="membership-icon">😎</h3>
+        <h2>Platinum</h2>
+        <p>Full access to gatherings and exclusive interviews with investors and industry experts.</p>
+        <p class="price">$150/year</p>
+    </div>
+
 </main>
 <footer>
     <img src="images/logo.png" alt="Peak Chamber of Commerce logo" />
