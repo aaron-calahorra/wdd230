@@ -72,7 +72,7 @@ nav {
 	text-align: left;
 	text-decoration: none;
 	color: black;
-	font-weight: 700;
+	font-weight: 400;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
@@ -363,7 +363,8 @@ figure {
 }
 
 .thankyou a{
-    text-decoration: 0;
+    text-decoration: none;
+    -webkit-text-decoration: none;
     color: white;
     background-color: black;
     padding: 12px 30px;
