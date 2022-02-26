@@ -102,4 +102,20 @@
     .page-title {
         display:none;
     }
+
+    .join-membership {
+        padding:30px calc((100% - 1000px)/2)
+    }
+
+    .shown {
+        display: block;
+    }
+
+    form {
+        grid-column: 1/2;
+    }
+
+    .membership-list {
+        grid-column: 2/3;
+    }
 }

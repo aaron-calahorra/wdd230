@@ -57,9 +57,9 @@
         </ul>
       </nav>
 <main>
-    <h1 class="page-title">Join us Now</h1>
-
-    <form action="get" action="thankyou.html">
+    <section class="join-membership">
+    <form action="thankyou.html">
+      <h1 class="page-title shown">Join us Now</h1>
         <label class="top">First name*<input type="text" name="fname" required></label>
         <label class="top">Last name*<input type="text" name="lname" required></label>
         <label class="top">Business position (optional)<input type="text" title="Please type more than 7 characters without spaces to describe your job position." pattern="\S{7,}" name="businesspos"></label>
@@ -80,12 +80,14 @@
             </textarea>
             
         </label>
-        <input type="text" id="setCurrentTime" name="date" value=""> 
+        <input type="hidden" id="setCurrentTime" name="date" value=""> 
     
         <a href="thankyou.html"> 
         <input class="submitBtn" type="submit" value="Send request">
         </a>    
     </form>
+
+    <div class="membership-list">
 
     <h2 id="membership-title">Explore our Memberships</h2>
     
@@ -109,7 +111,9 @@
         <p>Full access to gatherings and exclusive interviews with investors and industry experts.</p>
         <p class="price">$150/year</p>
     </div>
+  </div>
 
+  </section>
 </main>
 <footer>
     <img src="images/logo.png" alt="Peak Chamber of Commerce logo" />
