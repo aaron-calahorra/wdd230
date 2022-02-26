@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Peak Chamber of Commerce website: news, events and more of local businesses"
+    />
+    <meta name="author" content="Aaron Calahorra" />
+    <title>Peak Chamber of Commerce</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+<body>
+
+    <h1>Join us now</h1>
+
+    <form action="get" action="thankyou.html">
+        <label class="top">First name*<input type="text" name="fname" required></label>
+        <label class="top">Last name*<input type="text" name="lname" required></label>
+        <label class="top">Business position<input type="text" name="businesspos"></label>
+        <label class="top">Email*<input type="email" name="email" required placeholder="example@example.com"></label>
+        <label class="top">Cell phone number*<input type="tel" name="cellphone" required></label>
+        <label class="top">Business name*<input type="text" name="businessname" required></label>
+        <label class="top">Membership type*
+            <select name="membership-list" required>
+                <option value="none" selected disabled hidden>Select an Option</option>
+                <option value="platinum">Platinum</option>
+                <option value="gold">Gold</option>
+                <option value="silver">Silver</option>
+            </select>
+            
+        </label>
+        <label class="top">Business description*
+            <textarea name="businessdesc" rows="4" cols="25">    
+            </textarea>
+            
+        </label>
+        <input type="hidden" id="date" name="date" value="current-time"> 
+        <input type="hidden" id="time" name="time" value="current-date">
+    
+        <input class="submitBtn" type="submit" value="Send request">
+    </form>
+
+</body>
+
+</html>

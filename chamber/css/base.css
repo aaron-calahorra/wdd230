@@ -299,3 +299,38 @@ figure {
 .local-storage {
     text-align: center;
 }
+
+
+/*--------- FORMS -----------*/
+
+form label.top {
+    display: block;
+}
+
+form label.top input, form label.top select, .top textarea{
+    -webkit-appearance: none;
+    display: block;
+    padding: .75rem 0;
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 10px;
+}
+
+form input.submitBtn {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 100px;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border: 1px solid red;
+}
+
+form label.top input:required:valid {
+    border: 1px solid black;
+}
