@@ -306,8 +306,8 @@ figure {
 
 .membership {
     text-align: center;
-    margin: 10px 60px;
-    padding: 20px 50px;
+    margin: 10px 30px;
+    padding: 20px 10%;
 }
 
 .silver {
@@ -334,7 +334,7 @@ figure {
 }
 
 .price {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     margin: 15px;
     background-color: white;
