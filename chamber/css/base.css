@@ -315,11 +315,10 @@ form label.top input, form label.top select, .top textarea{
     -webkit-appearance: none;
     appearance: none;
     display: block;
-    padding: .75rem 0;
+    padding: .75rem 4px;
     width: 100%;
-    max-width: 20rem;
     border-radius: 10px;
-    margin: 0 0 20px;
+    margin: 4px 0 30px;
     background-color: white;
 }
 
@@ -331,7 +330,7 @@ form input.submitBtn {
     padding: 15px 50px;
     border-radius: 100px;
     width: 100%;
-    max-width: 20rem;
+
 }
 
 form label.top input:required, form label.top select:required, .top textarea:required{
