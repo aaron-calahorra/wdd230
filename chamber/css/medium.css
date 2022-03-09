@@ -84,7 +84,7 @@
     }
 
     .shown {
-        align-self: end;
+        align-self: center;
     }
 
     form {
@@ -97,5 +97,10 @@
 
     .memership {
         padding: 10px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

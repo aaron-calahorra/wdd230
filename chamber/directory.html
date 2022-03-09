@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Peak Chamber of Commerce website: news, events and more of local businesses"
+    />
+    <meta name="author" content="Aaron Calahorra" />
+    <title>Peak Chamber of Commerce</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+<body>
+    <div id="message">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+      </div>
+      <header>
+        <div class="logo">
+          <picture>
+            <img src="images/logo.webp" alt="Peak Chamber of Commerce Logo" />
+          </picture>
+          <section class="headings">
+            <h1>Peak Chamber of Commerce</h1>
+            <h2>Local businesses grow our community.</h2>
+          </section>
+        </div>
+        <p id="date"></p>
+      </header>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a class="ham" href="#"><img src="images/menu.png" alt="menu" /></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li class="active"><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <main>        
+        <div class="page-title-div">
+            <h1 class="page-title shown">Directory</h1>
+        </div>
+
+
+        <div class="filter-buttons">
+            <button class="grid"><img src="images/grid_big.svg" alt="Grid button"></button>
+            <button class="table-hover"><img src="images/list_ul.svg" alt="List button"></button>
+        </div>
+
+        <table class="directory-table">
+            <thead>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Website</th>
+                <th scope="col">Market</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <div class="cards"></div>
+      </main>
+      <footer>
+        <img src="images/logo.png" alt="Peak Chamber of Commerce logo" />
+        <div class="address">
+          <p>Independence St. 301</p>
+          <p>Chihuahua, Mexico, 31125</p>
+        </div>
+    
+        <div class="contact">
+          <p>hello@peakcommerce.com</p>
+          <p>(614) 647 2654</p>
+          <div class="map"><a href="#">📍 Link to map</a></div>
+        </div>
+    
+        <div class="copyright">
+          <p>
+            &copy; <span id="copyright-year"></span> Peak Commerce| Aaron
+            Calahorra | WDD 230 Project
+          </p>
+          <p>Last modified: <span id="last-modified-date"></span></p>
+        </div>
+      </footer>
+    
+      <script src="js/main.js"></script>  
+      <script src="js/directory.js"></script>  
+    </body>
+    
+</html>

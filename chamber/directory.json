@@ -1,0 +1,100 @@
+{
+    "companies": [
+        {
+            "name":"Flagstar Bancorp, Inc.",
+            "address":"4 American Ash Road",
+            "phone":"857-679-4598",
+            "email":"flagstar.com",
+            "market":"Finance",
+            "imageurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flagstar_Bank_logo.svg/2560px-Flagstar_Bank_logo.svg.png"
+        },
+        {
+            "name":"First US Bancshares, Inc.",
+            "address":"13414 New Castle Road",
+            "phone":"497-337-8687",
+            "email":"firstus.com",
+            "market":"Finance",
+            "imageurl":"https://accounts.firstusbank.com/images/fi-assets/first-us-bank/first-us-bank-logo-9d26d742.png"
+        },
+        {
+            "name":"Arcos Dorados Holdings Inc.",
+            "address":"077 Helena Avenue",
+            "phone":"428-131-2896",
+            "email":"arcosdorados.com",
+            "market":"Real State",
+            "imageurl":"https://www.arcosdorados.com/wp-content/themes/oxpitan/images/logo-mobile.png"
+        },
+        {
+            "name":"MV Oil Trust",
+            "address":"52930 Mesta Parkway",
+            "phone":"654-406-0471",
+            "email":"mvoiltrust.com",
+            "market":"Oil",
+            "imageurl":"https://upload.wikimedia.org/wikipedia/commons/8/81/Motoroil_hellas_logo.png"
+        },
+        {
+            "name":"MedEquities Realty Trust, Inc.",
+            "address":"82 Lotheville Lane",
+            "phone":"472-524-6795",
+            "email":"medequities.com",
+            "market":"Health",
+            "imageurl":"https://mergerlinks-production.s3.eu-west-2.amazonaws.com/files/company/49319/logo/medequities-realty-trust-inc.png"
+        },
+        {
+            "name":"Grupo Aeroportuario Del Pacifico, S.A. de C.V.",
+            "address":"8 Longview Drive",
+            "phone":"846-341-2054",
+            "email":"gadp.mx",
+            "market":"Transportation",
+            "imageurl":"https://rgbmedia.com.mx/wp-content/uploads/2019/06/Grupo-Aeroportuario-del-Pecifico-e1568167227625.png"
+        },
+        {
+            "name":"Preferred Bank",
+            "address":"772 Westridge Crossing",
+            "phone":"445-135-9331",
+            "email":"preferredbank.com",
+            "market":"Finance",
+            "imageurl":"https://www.mypfbank.com/images/Image/logo.png"
+        },
+        {
+            "name":"Artisan Partners Asset Management Inc.",
+            "address":"31227 Park Meadow Plaza",
+            "phone":"773-999-9171",
+            "email":"artisanpartners.com",
+            "market":"Finance",
+            "imageurl":"https://cdn.shopify.com/s/files/1/0002/2206/8795/files/artisan_logo_pos_280x@2x.png?v=1587959753"
+        },
+        {
+            "name":"Teligent, Inc.",
+            "address":"23429 Cambridge Center",
+            "phone":"217-244-8111",
+            "email":"teligent.com",
+            "market":"Technology",
+            "imageurl":"https://educacep.es/wp-content/uploads/teligent.png"
+        },
+        {
+            "name":"Public Storage",
+            "address":"6 2nd Road",
+            "phone":"605-411-0143",
+            "email":"publicstorage.com",
+            "market":"Logistics",
+            "imageurl":"data:image/png;base64,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"
+        },
+        {
+            "name":"Hovnanian Enterprises Inc",
+            "address":"6 Sunfield Place",
+            "phone":"212-371-1388",
+            "email":"hovnanian.co",
+            "market":"Real State",
+            "imageurl":"https://upload.wikimedia.org/wikipedia/en/9/92/K._Hovnanian_Enterprises_Inc_Logo.png"
+        },
+        {
+            "name":"Solar Senior Capital Ltd.",
+            "address":"9 Evergreen Plaza",
+            "phone":"686-194-2313",
+            "email":"solarsenior.com",
+            "market":"Energy",
+            "imageurl":"https://slrseniorinvestmentcorp.com/portals/0/Images/suns/slrcp_logo-suns.png?ver=nNfv5uOaLsyytkbqZKfBow%3D%3D"
+        }
+    ]
+}

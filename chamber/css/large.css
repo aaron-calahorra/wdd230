@@ -118,4 +118,10 @@
     .membership-list {
         grid-column: 2/3;
     }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding:30px calc((100% - 1000px)/2)
+
+    }
 }
