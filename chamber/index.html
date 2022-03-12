@@ -78,9 +78,16 @@
         </div>
         <div class="weather">
           <h2>Weather</h2>
-          <p>Current tempeture is: <span id="temp">15</span>&deg;C</p>
-          <p>Wind speed: <span id="speed">7</span> km/h</p>
-          <p id="chill">message</p>
+          <h3>Chihuahua</h3>
+          <div class="current-weather">
+            <img src="" alt="" id="weathericon"/>
+            <div class="current-weather-text">
+              <span id="current-temp"></span>
+              <p id="weather-desc"></p>
+            </div>
+          </div>
+          <p>Wind speed: <span id="speed"></span> km/h</p>
+          <p id="chill"></p>
         </div>
         <div class="news">
           <h2>News</h2>
@@ -131,5 +138,6 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/weatherapi.js"></script>
   </body>
 </html>
