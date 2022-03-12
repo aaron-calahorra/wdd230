@@ -278,9 +278,14 @@ footer img {
 }
 
 #weather-desc {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.4);
     margin: -8px 0 16px;
     font-size: .8rem;
+}
+
+.weather a {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: .6rem;
 }
 
 .events {
