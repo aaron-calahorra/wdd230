@@ -51,16 +51,48 @@
           </li>
           <li><a href="index.html">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
-          <li class="active"><a href="directory.html">Directory</a></li>
+          <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
 
-    <main>        
-        <div class="page-title-div">
-            <h1 class="page-title shown">Contact Us</h1>
+      <main>
+        <h1 class="page-title shown centered">Get in touch now</h1>
+
+        <section class="join-membership top-grid">
+        <form action="thankyou.html">
+            <h2>Send Us a Message</h2>
+            <label class="top">Full name*<input type="text" name="fname" required></label>
+            <label class="top">Email*<input type="email" name="email" required placeholder="example@example.com"></label>
+            <label class="top">Cell phone number*<input type="tel" name="cellphone" required></label>
+            <label class="top">Subject*<input type="text" name="subject" required></label>
+            <label class="top">Message*
+                <textarea name="businessdesc" rows="4" cols="25" required>    
+                </textarea>
+                
+            </label>
+            <input type="hidden" id="setCurrentTime" name="date" value=""> 
+        
+            <input class="submitBtn" type="submit" value="Send message">
+    
+        </form>
+    
+        <div class="membership-list no-margin">
+    
+        <h2 id="membership-title">Visit Our Offices</h2>
+        
+        <div class="address-card">
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.9811130758249!2d-106.06901694184208!3d28.630894195604647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea5cab397ac373%3A0xb59575285f7e41a6!2sAv.%20Independencia%2C%20Chihuahua%2C%20Chih.!5e0!3m2!1ses-419!2smx!4v1647606253509!5m2!1ses-419!2smx" style="border:0;" loading="lazy"></iframe>
+          </div>
+          <p>Independence St. 301 Chihuahua, Mexico, 31125</p>
+          <p>hello@peakcommerce.com</p>
+          <p>(614) 647 2654</p>
         </div>
+      </div>
+    
+      </section>
     </main>
     <footer>
         <img src="images/logo.png" alt="Peak Chamber of Commerce logo" />
