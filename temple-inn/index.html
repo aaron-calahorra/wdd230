@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+        name="description"
+        content="Temple Inn"
+        />
+        <meta name="author" content="Aaron Calahorra" />
+        <title>Temple Inn</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/medium.css" />
+        <link rel="stylesheet" href="css/large.css" />
+    </head>
+
+    <body>
+        <header>
+            <!-- <picture>
+                <img src="images/templeinn-logo.webp" alt="Temple Inn Logo">
+            </picture>
+            <nav>
+                <ul class="navigation">
+                  <li>
+                    <a class="ham" href="#"><img src="images/menu.png" alt="menu" /></a>
+                  </li>
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="discover.html">Discover</a></li>
+                  <li><a href="directory.html">Directory</a></li>
+                  <li><a href="join.html">Join</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav> -->
+              <nav>
+                <a href="index.html" class="logo"><img src="images/templeinn-logo.webp" alt="Temple Inn Logo"></a>
+                <div id="hamLinks">
+                  <a href="#news">News</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#about">About</a>
+                </div>
+                <div class="ham">
+                  <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                   <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+                <div class="current-weather">
+                  <p class="header-city">Chihuahua</p>
+                  <img src="https://via.placeholder.com/30" alt="Weather description" id="weathericon"/>
+                  <p id="current-temp"></p>
+                  <p id="weather-desc"></p>
+                  <p id="humidity"></p>
+                </div>
+
+                </div>
+              </nav>
+        </header>
+        <script src="js/menu.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+
+</html>
