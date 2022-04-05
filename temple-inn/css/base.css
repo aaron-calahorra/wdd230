@@ -1,17 +1,24 @@
 * {
     font-family: 'Work Sans', sans-serif;
-    letter-spacing: -2%;
+    letter-spacing: -0.02em;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    letter-spacing: -0.08em;
+    margin: 0;
 }
 
 header {
     overflow: hidden;
     background-color: #E28413;
     position: relative;
-    padding: 10px 0;
+    padding: 16px 0;
 }
 
 header img {
     width: 150px;
+    margin: 10px;
 }
 
 nav {
@@ -24,6 +31,7 @@ nav {
 .logo {
     grid-column: 2/3;
     justify-self: center;
+    padding: 0;
 }
 
 header #hamLinks {
@@ -44,9 +52,14 @@ header a {
     display: flex;
     grid-column: 1/2;
     grid-row: 1/2;
-    /* position: absolute;
-    right: 0;
-    top: 0; */
+}
+
+a.icon {
+    padding: 0 30px;
+}
+
+i.fa-bars {
+    font-size: 2rem;
 }
   
 #hamLinks a:hover {
@@ -62,7 +75,7 @@ header a {
     text-align: center;
     color: white;
     justify-self: end;
-    padding-right: 16px;
+    padding-right: 30px;
 }
 
 .current-weather img {
@@ -78,4 +91,37 @@ header a {
 .header-city {
     font-weight: 600;
     letter-spacing: -8%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+    padding: 0 30px 60px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 1)), url("../images/colonia-juarez-temple-hero.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-height: 60vh;
+    color: #31231E;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero button {
+    background-color: #E28413;
+    border: 0;
+    padding: 10px 30px;
+    margin: 10px 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #E5902A;
 }
