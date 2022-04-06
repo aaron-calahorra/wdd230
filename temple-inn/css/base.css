@@ -108,7 +108,7 @@ i.fa-bars {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    min-height: 400px;
+    min-height: 600px;
     color: #31231E;
 }
 
@@ -121,7 +121,7 @@ i.fa-bars {
     margin: 0;
 }
 
-.hero button {
+.orange-button {
     background-color: #E28413;
     border: 0;
     padding: 10px 30px;
@@ -131,38 +131,55 @@ i.fa-bars {
     border-radius: 5px;
 }
 
-.hero button:hover {
+.orange-button:hover {
     background-color: #E5902A;
 }
 
+.white-button {
+    background-color: white;
+    border: 0;
+    padding: 10px 30px;
+    margin: 10px 0;
+    color: #31231E;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.white-button:hover {
+    background-color: lightgray;
+}
+
 .featured-destination {
-    display: grid;
-    grid-template-columns: 1fr;    
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    background-image: linear-gradient(rgba(49, 35, 30, .6),rgba(49, 35, 30, 0.6)),url("../images/colonia-juarez-featured.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 16px;
+    border-radius: 20px;
+    padding: 30px 0;
+    height: 400px;
+    color: white;
 }
 .featured-destination h2 {
     font-weight: 300;
     letter-spacing: -0.02em;
     font-size: 1rem;
-    color: #E28413;
+    color: #E5902A;
 }
 
 .featured-destination p {
     margin: 30px 0 10px;
+    color: white;
 }
 
 .featured-destination h3 {
-    font-size: 2rem;
-}
-
-.featured-destination picture {
-    padding: 0 16px;
-}
-
-.featured-destination img {
-    width: 100%;
-    border-radius: 5px;
+    font-size: 1.8rem;
+    color: white;
 }
 
 .featured-destination table {
@@ -170,15 +187,72 @@ i.fa-bars {
     border-radius: 5px;
     margin: 0 auto 16px;
     font-size: .8rem;
-    padding: 0 16px 0;
+    padding: 0 16px 4px;
     width: 300px;
+    backdrop-filter: blur(5px);
+    border: .5px solid #E5902A;
 }
 
 .featured-destination th {
     padding: 4px 0;
-    border-bottom: .5px solid rgba(49, 35, 30, .1);
+    border-bottom: .5px solid rgba(255, 255, 255, .1);
+    color: white;
 }
 
 .featured-destination td {
     padding: 0;
+    color: white;
+}
+
+#featured-summary {
+    margin: 0;
+    font-size: .8rem;
+}
+
+footer {
+    background-color: #E28413;
+    padding: 60px 16px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+}
+
+footer p, footer span, footer a {
+    color: white;
+}
+
+footer p {
+    font-size: .8rem;
+    grid-column: 1/2;
+}
+
+.social {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.social h3 {
+    grid-column: 1/3;
+    color: white;
+}
+
+.social-icon {
+    width: 25px;
+}
+
+iframe {
+    border-radius: 5px;
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+footer .white-button {
+    align-self: end;
+    justify-self: start;
+}
+
+footer span {
+    margin-top: 60px;
+    grid-column: 1/3;
+    text-align: center;
 }
