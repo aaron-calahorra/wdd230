@@ -8,7 +8,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     // console.log(jsObject);
-    document.querySelector('#current-temp').textContent = jsObject.main.temp + "\xB0C";
+    document.querySelector('#current-temp').textContent = Math.round(jsObject.main.temp) + "\xB0C";
     const iconsrc= `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`;
     const desc = jsObject.weather[0].description;
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
@@ -16,4 +16,13 @@ fetch(apiURL)
     document.querySelector('#weather-desc').textContent = capitalize(desc);
     document.querySelector('#humidity').textContent = "Humidity: " + jsObject.main.humidity + "%";
     
-  });
+});
+
+const foreURL = "https://api.openweathermap.org/data/2.5/forecast?id=4015076&appid=d1b2b0b463523d6cf47a9c4e7eb0de0e&units=metric&cnt=3"
+
+fetch(foreURL)
+  .then((response2) => response2.json())
+  .then((jsObject2) => {
+    console.log(jsObject2);
+    
+});
