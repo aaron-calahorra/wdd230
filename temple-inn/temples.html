@@ -32,7 +32,7 @@
               <nav>
                 <a href="index.html" class="logo"><img src="images/templeinn-logo.webp" alt="Temple Inn Logo"></a>
                 <div id="hamLinks">
-                  <a href="temples.html">Temples</a>
+                  <a href="temples.html" class="active">Temples</a>
                   <a href="#contact">Reservations</a>
                   <a href="#about">Services</a>
                   <a href="#about">Weddings</a>
@@ -53,37 +53,8 @@
               </nav>
         </header>
         <main>
-          <section class="hero">
-            <h1>Always near to the temple</h1>
-            <p>All around the world</p>
-            <button class="orange-button">Book now</button>
-          </section>
-          <section class="featured-destination">
-            <div>
-              <h2>Featured temple destination</h2>
-              <h3>Colonia Juárez México Temple</h3>
-              <p id="featured-summary">Where small temples were revealed.</p>
-              <p>Colonia Juárez, Chihuahua, México</p>
-              <table class="forecast">
-                <tr>
-                  <th id="day1"></th>
-                  <th id="day2"></th>
-                  <th id="day3"></th>
-                </tr>
-                <tr>
-                  <td id="day1-temp"></td>
-                  <td id="day2-temp"></td>
-                  <td id="day3-temp"></td>
-                </tr>
-                <tr>
-                  <td id="day1-desc"></td>
-                  <td id="day2-desc"></td>
-                  <td id="day3-desc"></td>
-                </tr>
-              </table>
-              <button class="white-button">Read more</button>
-            </div>
-          </section>
+            <h1 class="page-title">Current locations</h1>
+            <div class="temple-list"></div>
         </main>
         <footer>
           <button class="white-button">Book now</button>
@@ -98,6 +69,8 @@
         </footer>
         <script src="js/menu.js"></script>
         <script src="js/weather.js"></script>
+        <script src="js/templeList.js"></script>
+        <script src="js/like.js"></script>
     </body>
 
 </html>

@@ -1,0 +1,48 @@
+{
+  "temples": [
+  {
+    "temple": "Colonia Juárez Temple",
+    "imageURL": "https://assets.ldscdn.org/7d/e4/7de41648902658062ff9329eacb18f463c57fb9a/colonia_juarez_mexico_temple_lds.jpeg",
+    "address": "Chihuahua y Diaz S/N 31857 Colonia Juárez, Chihuahua, Mexico",
+    "telephone": "(52) 636-110-9427",
+    "services": "Distribution center nearby",
+    "announced": "4 October 1997",
+    "groundbreaking": "7 March 1998",
+    "dedicated": "6 March 1999",
+    "appointment": "https://www.churchofjesuschrist.org/temples/details/colonia-juarez-chihuahua-mexico-temple?lang=eng"
+  },
+  {
+    "temple": "Ciudad Juárez Mexico Temple",
+    "imageURL": "https://assets.ldscdn.org/53/b0/53b0a9c5f138cfad4fa5efd4beabfa9763a59a52/ciudad_juarez_mexico_temple_lds.jpeg",
+    "address": "Calle Paraguay # 290 Esq. José Borunda, Col. Partido Romero 32177 Ciudad Juárez, Chihuahua, Mexico",
+    "telephone": "(52) 656-611-5146",
+    "services": "Distribution center nearby",
+    "announced": "7 May 1998",
+    "groundbreaking": "9 January 1999",
+    "dedicated": "26 February 2000",
+    "appointment": "https://www.churchofjesuschrist.org/temples/details/ciudad-juarez-mexico-temple?lang=eng"
+  },
+  {
+    "temple": "Guadalajara Mexico Temple",
+    "imageURL": "https://assets.ldscdn.org/d2/66/d266f251c0f00c5c5e4c102177556009bb662252/guadalajara_temple_lds.jpeg",
+    "address": "Av. Patria #879 Fracc. Jardines Tepeyac 45030 Zapopan, Jalisco, Mexico",
+    "telephone": "(52) 33-3125-1283",
+    "services": "Distribution center nearby",
+    "announced": "14 April 1999",
+    "groundbreaking": "12 June 1999",
+    "dedicated": "29 April 2001",
+    "appointment": "https://www.churchofjesuschrist.org/temples/details/guadalajara-mexico-temple?lang=eng"
+  },
+  {
+    "temple": "Hermosillo Sonora Mexico Temple",
+    "imageURL": "https://assets.ldscdn.org/59/fe/59fe3f4deeb887f8d406f172e7d1408b7cbfe3d9/hermosillo_sonora_mexico_temple_lds.jpg",
+    "address": "General Pedro Garcia Conde No 303 Esquina Con Juan José Ríos Colonia Pitic, 83150 Hermosillo, Sonora, Mexico",
+    "telephone": "(52) 662-210-5660",
+    "services": "Distribution center nearby",
+    "announced": "20 July 1998",
+    "groundbreaking": "5 December 1998",
+    "dedicated": "27 February 2000",
+    "appointment": "https://www.churchofjesuschrist.org/temples/details/hermosillo-sonora-mexico-temple?lang=eng"
+  }
+]
+}
